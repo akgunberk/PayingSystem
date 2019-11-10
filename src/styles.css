@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 800px;
+  margin: 5% auto auto;
+}
+
+.Card-Info {
+  padding-left: 25px;
+  text-align: left;
+}
+
+.Card-Number {
+  border: none;
+}
+
+::-webkit-input-placeholder {
+  border: none;
+  text-align: center;
+}
+
+.Descr > span:first-child {
+  position: relative;
+  float: left;
+}
+
+.Descr > span:nth-child(2) {
+  position: relative;
+  float: right;
+  margin-right: 65px;
+}
+
+.Date-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Cards {
+  margin-left: 30px;
+}
+
+/*
+.CardVisual {
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+.box {
+  border: solid;
+  border-radius: 5px;
+  width: 250px;
+  height: 180px;
+  margin: auto auto auto auto;
+  color: gray;
+  background-color: lightgray;
+}
+
+.box > p:nth-child(2) {
+  margin: 90px auto auto;
+}
+.box > p:nth-child(3) {
+  text-align: left;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}

@@ -1,2 +1,0 @@
-# PayingSystem
-Created with CodeSandbox
